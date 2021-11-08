@@ -46,14 +46,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Parqueadero\Driver.cs" />
+    <Compile Include="Parqueadero\IngresarParking.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Parqueadero\IngresarParking.Designer.cs">
+      <DependentUpon>IngresarParking.cs</DependentUpon>
     </Compile>
+    <Compile Include="Parqueadero\Parking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parqueadero\Parking.Designer.cs">
+      <DependentUpon>Parking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parqueadero\SalidaParking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parqueadero\SalidaParking.Designer.cs">
+      <DependentUpon>SalidaParking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parqueadero\Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Parqueadero\Parking.resx">
+      <DependentUpon>Parking.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,5 +93,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

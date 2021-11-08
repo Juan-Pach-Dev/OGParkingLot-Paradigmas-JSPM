@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OGParkingLot_Paradigmas_JSPM
+namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
 {
-    public partial class Form1 : Form
+    public partial class SalidaParking : Form
     {
-        public Form1()
+        public SalidaParking()
         {
             InitializeComponent();
         }
