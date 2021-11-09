@@ -68,8 +68,14 @@
     <Compile Include="Parqueadero\Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Parqueadero\IngresarParking.resx">
+      <DependentUpon>IngresarParking.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Parqueadero\Parking.resx">
       <DependentUpon>Parking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parqueadero\SalidaParking.resx">
+      <DependentUpon>SalidaParking.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

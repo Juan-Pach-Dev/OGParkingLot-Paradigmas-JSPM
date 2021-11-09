@@ -31,17 +31,19 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.Lblnombre = new System.Windows.Forms.Label();
-            this.Lblplaca = new System.Windows.Forms.Label();
+            this.Lblplacavehiculo = new System.Windows.Forms.Label();
             this.Lbltipovehiculo = new System.Windows.Forms.Label();
+            this.Btningresar = new System.Windows.Forms.Button();
+            this.Btnsacar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.Lbltipovehiculo);
-            this.panel1.Controls.Add(this.Lblplaca);
+            this.panel1.Controls.Add(this.Lblplacavehiculo);
             this.panel1.Controls.Add(this.Lblnombre);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(346, 138);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 133);
             this.panel1.TabIndex = 0;
@@ -55,14 +57,14 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.Lblnombre.TabIndex = 0;
             this.Lblnombre.Text = "Nombre";
             // 
-            // Lblplaca
+            // Lblplacavehiculo
             // 
-            this.Lblplaca.AutoSize = true;
-            this.Lblplaca.Location = new System.Drawing.Point(3, 60);
-            this.Lblplaca.Name = "Lblplaca";
-            this.Lblplaca.Size = new System.Drawing.Size(34, 13);
-            this.Lblplaca.TabIndex = 1;
-            this.Lblplaca.Text = "Placa";
+            this.Lblplacavehiculo.AutoSize = true;
+            this.Lblplacavehiculo.Location = new System.Drawing.Point(3, 60);
+            this.Lblplacavehiculo.Name = "Lblplacavehiculo";
+            this.Lblplacavehiculo.Size = new System.Drawing.Size(34, 13);
+            this.Lblplacavehiculo.TabIndex = 1;
+            this.Lblplacavehiculo.Text = "Placa";
             // 
             // Lbltipovehiculo
             // 
@@ -73,11 +75,32 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.Lbltipovehiculo.TabIndex = 2;
             this.Lbltipovehiculo.Text = "Tipo de Vehiculo";
             // 
+            // Btningresar
+            // 
+            this.Btningresar.Location = new System.Drawing.Point(226, 138);
+            this.Btningresar.Name = "Btningresar";
+            this.Btningresar.Size = new System.Drawing.Size(91, 51);
+            this.Btningresar.TabIndex = 1;
+            this.Btningresar.Text = "Ingresar un Vehiculo";
+            this.Btningresar.UseVisualStyleBackColor = true;
+            this.Btningresar.Click += new System.EventHandler(this.Btningresar_Click);
+            // 
+            // Btnsacar
+            // 
+            this.Btnsacar.Location = new System.Drawing.Point(226, 208);
+            this.Btnsacar.Name = "Btnsacar";
+            this.Btnsacar.Size = new System.Drawing.Size(91, 47);
+            this.Btnsacar.TabIndex = 2;
+            this.Btnsacar.Text = "Retirar un Vehiculo";
+            this.Btnsacar.UseVisualStyleBackColor = true;
+            // 
             // Parking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Btnsacar);
+            this.Controls.Add(this.Btningresar);
             this.Controls.Add(this.panel1);
             this.Name = "Parking";
             this.Text = "Parking";
@@ -91,7 +114,9 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label Lbltipovehiculo;
-        private System.Windows.Forms.Label Lblplaca;
+        private System.Windows.Forms.Label Lblplacavehiculo;
         private System.Windows.Forms.Label Lblnombre;
+        private System.Windows.Forms.Button Btningresar;
+        private System.Windows.Forms.Button Btnsacar;
     }
 }
