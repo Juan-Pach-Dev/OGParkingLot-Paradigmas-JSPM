@@ -12,6 +12,9 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
 {
     public partial class IngresarParking : Form
     {
-
+        public IngresarParking()
+        {
+            InitializeComponent();
+        }
     }
 }

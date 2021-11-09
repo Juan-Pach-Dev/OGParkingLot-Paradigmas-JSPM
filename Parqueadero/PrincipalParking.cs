@@ -18,16 +18,16 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             InitializeComponent();
         }
         
-
-
-
-
-
-
-
-
         private void Btningresar_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            IngresarParking ingresarvehiculo = new IngresarParking
+            {
+                MdiParent = this.MdiParent
+            };
+            MdiParent.Size = new Size(ingresarvehiculo.Size.Width + 100, ingresarvehiculo.Size.Height + 100);
+            ingresarvehiculo.Show();
+            this.Close();
 
         }
     }

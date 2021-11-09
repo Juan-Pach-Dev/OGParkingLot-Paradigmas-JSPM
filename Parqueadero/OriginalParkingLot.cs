@@ -12,8 +12,6 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
 {
     public partial class OriginalParkingLot : Form
     {
-        private int childFormNumber = 0;
-
         public OriginalParkingLot()
         {
             InitializeComponent();
@@ -25,7 +23,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             {
                 MdiParent = this
             };
-            this.Size = new Size(principalparking.Size.Width + 35, principalparking.Size.Height + 60);
+            this.Size = new Size(principalparking.Size.Width + 100, principalparking.Size.Height + 100);
             principalparking.Show();
 
         }
