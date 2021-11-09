@@ -1,7 +1,7 @@
 ﻿
 namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
 {
-    partial class Parking
+    partial class PrincipalParking
     {
         /// <summary>
         /// Required designer variable.
@@ -30,9 +30,9 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Lblnombre = new System.Windows.Forms.Label();
-            this.Lblplacavehiculo = new System.Windows.Forms.Label();
             this.Lbltipovehiculo = new System.Windows.Forms.Label();
+            this.Lblplacavehiculo = new System.Windows.Forms.Label();
+            this.Lblnombre = new System.Windows.Forms.Label();
             this.Btningresar = new System.Windows.Forms.Button();
             this.Btnsacar = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -85,6 +85,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel1
             // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.Lbltipovehiculo);
             this.panel1.Controls.Add(this.Lblplacavehiculo);
             this.panel1.Controls.Add(this.Lblnombre);
@@ -93,14 +94,14 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.panel1.Size = new System.Drawing.Size(97, 133);
             this.panel1.TabIndex = 0;
             // 
-            // Lblnombre
+            // Lbltipovehiculo
             // 
-            this.Lblnombre.AutoSize = true;
-            this.Lblnombre.Location = new System.Drawing.Point(3, 9);
-            this.Lblnombre.Name = "Lblnombre";
-            this.Lblnombre.Size = new System.Drawing.Size(44, 13);
-            this.Lblnombre.TabIndex = 0;
-            this.Lblnombre.Text = "Nombre";
+            this.Lbltipovehiculo.AutoSize = true;
+            this.Lbltipovehiculo.Location = new System.Drawing.Point(3, 113);
+            this.Lbltipovehiculo.Name = "Lbltipovehiculo";
+            this.Lbltipovehiculo.Size = new System.Drawing.Size(87, 13);
+            this.Lbltipovehiculo.TabIndex = 2;
+            this.Lbltipovehiculo.Text = "Tipo de Vehiculo";
             // 
             // Lblplacavehiculo
             // 
@@ -111,14 +112,14 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.Lblplacavehiculo.TabIndex = 1;
             this.Lblplacavehiculo.Text = "Placa";
             // 
-            // Lbltipovehiculo
+            // Lblnombre
             // 
-            this.Lbltipovehiculo.AutoSize = true;
-            this.Lbltipovehiculo.Location = new System.Drawing.Point(3, 113);
-            this.Lbltipovehiculo.Name = "Lbltipovehiculo";
-            this.Lbltipovehiculo.Size = new System.Drawing.Size(87, 13);
-            this.Lbltipovehiculo.TabIndex = 2;
-            this.Lbltipovehiculo.Text = "Tipo de Vehiculo";
+            this.Lblnombre.AutoSize = true;
+            this.Lblnombre.Location = new System.Drawing.Point(3, 9);
+            this.Lblnombre.Name = "Lblnombre";
+            this.Lblnombre.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre.TabIndex = 0;
+            this.Lblnombre.Text = "Nombre";
             // 
             // Btningresar
             // 
@@ -141,6 +142,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel2
             // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
@@ -178,6 +180,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel3
             // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label6);
@@ -215,6 +218,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel4
             // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.label9);
@@ -252,6 +256,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel5
             // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel5.Controls.Add(this.label10);
             this.panel5.Controls.Add(this.label11);
             this.panel5.Controls.Add(this.label12);
@@ -289,6 +294,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel6
             // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel6.Controls.Add(this.label13);
             this.panel6.Controls.Add(this.label14);
             this.panel6.Controls.Add(this.label15);
@@ -326,6 +332,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel7
             // 
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel7.Controls.Add(this.label16);
             this.panel7.Controls.Add(this.label17);
             this.panel7.Controls.Add(this.label18);
@@ -363,6 +370,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel8
             // 
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel8.Controls.Add(this.label19);
             this.panel8.Controls.Add(this.label20);
             this.panel8.Controls.Add(this.label21);
@@ -400,6 +408,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel9
             // 
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel9.Controls.Add(this.label22);
             this.panel9.Controls.Add(this.label23);
             this.panel9.Controls.Add(this.label24);
@@ -437,6 +446,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel10
             // 
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel10.Controls.Add(this.label25);
             this.panel10.Controls.Add(this.label26);
             this.panel10.Controls.Add(this.label27);

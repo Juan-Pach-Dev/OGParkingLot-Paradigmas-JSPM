@@ -46,18 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Parqueadero\Driver.cs" />
     <Compile Include="Parqueadero\IngresarParking.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Parqueadero\IngresarParking.Designer.cs">
       <DependentUpon>IngresarParking.cs</DependentUpon>
     </Compile>
-    <Compile Include="Parqueadero\Parking.cs">
+    <Compile Include="Parqueadero\OriginalParkingLot.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Parqueadero\Parking.Designer.cs">
-      <DependentUpon>Parking.cs</DependentUpon>
+    <Compile Include="Parqueadero\OriginalParkingLot.Designer.cs">
+      <DependentUpon>OriginalParkingLot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parqueadero\PrincipalParking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parqueadero\PrincipalParking.Designer.cs">
+      <DependentUpon>PrincipalParking.cs</DependentUpon>
     </Compile>
     <Compile Include="Parqueadero\SalidaParking.cs">
       <SubType>Form</SubType>
@@ -71,8 +76,11 @@
     <EmbeddedResource Include="Parqueadero\IngresarParking.resx">
       <DependentUpon>IngresarParking.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Parqueadero\Parking.resx">
-      <DependentUpon>Parking.cs</DependentUpon>
+    <EmbeddedResource Include="Parqueadero\OriginalParkingLot.resx">
+      <DependentUpon>OriginalParkingLot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parqueadero\PrincipalParking.resx">
+      <DependentUpon>PrincipalParking.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parqueadero\SalidaParking.resx">
       <DependentUpon>SalidaParking.cs</DependentUpon>

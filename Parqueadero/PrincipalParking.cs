@@ -11,12 +11,20 @@ using OGParkingLot_Paradigmas_JSPM.Parqueadero;
 
 namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
 {
-    public partial class Parking : Form
+    public partial class PrincipalParking : Form
     {
-        public Parking()
+        public PrincipalParking()
         {
             InitializeComponent();
         }
+        
+
+
+
+
+
+
+
 
         private void Btningresar_Click(object sender, EventArgs e)
         {

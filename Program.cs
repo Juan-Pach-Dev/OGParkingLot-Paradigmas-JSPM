@@ -16,7 +16,7 @@ namespace OGParkingLot_Paradigmas_JSPM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Parqueadero.Parking());
+            Application.Run(new Parqueadero.OriginalParkingLot());
         }
     }
 }
