@@ -45,6 +45,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.Txtgenero = new System.Windows.Forms.TextBox();
             this.Txtidentificacion = new System.Windows.Forms.TextBox();
             this.Lblafil = new System.Windows.Forms.Label();
+            this.Btnconfirmar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Lblmarca
@@ -196,11 +197,21 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.Lblafil.TabIndex = 18;
             this.Lblafil.Text = "Si es afiliado marque la casilla";
             // 
+            // Btnconfirmar
+            // 
+            this.Btnconfirmar.Location = new System.Drawing.Point(313, 398);
+            this.Btnconfirmar.Name = "Btnconfirmar";
+            this.Btnconfirmar.Size = new System.Drawing.Size(132, 30);
+            this.Btnconfirmar.TabIndex = 19;
+            this.Btnconfirmar.Text = "Confirmar Datos";
+            this.Btnconfirmar.UseVisualStyleBackColor = true;
+            // 
             // IngresarParking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Btnconfirmar);
             this.Controls.Add(this.Lblafil);
             this.Controls.Add(this.Txtidentificacion);
             this.Controls.Add(this.Txtgenero);
@@ -242,5 +253,6 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
         private System.Windows.Forms.TextBox Txtgenero;
         private System.Windows.Forms.TextBox Txtidentificacion;
         private System.Windows.Forms.Label Lblafil;
+        private System.Windows.Forms.Button Btnconfirmar;
     }
 }
