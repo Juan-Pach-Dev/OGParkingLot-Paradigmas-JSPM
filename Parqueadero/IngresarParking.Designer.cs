@@ -38,7 +38,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.Lbldatovehiculo = new System.Windows.Forms.Label();
             this.Lbldatoconductor = new System.Windows.Forms.Label();
             this.Chbafiliado = new System.Windows.Forms.CheckBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Cbxtipo = new System.Windows.Forms.ComboBox();
             this.Lblplaca = new System.Windows.Forms.Label();
             this.Lblgenero = new System.Windows.Forms.Label();
             this.Lblidentificacion = new System.Windows.Forms.Label();
@@ -129,17 +129,17 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.Chbafiliado.Text = "Afiliado";
             this.Chbafiliado.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // Cbxtipo
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.Cbxtipo.FormattingEnabled = true;
+            this.Cbxtipo.Items.AddRange(new object[] {
             "Carro",
             "Camioneta",
             "Microbus"});
-            this.comboBox1.Location = new System.Drawing.Point(474, 206);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 27;
+            this.Cbxtipo.Location = new System.Drawing.Point(474, 206);
+            this.Cbxtipo.Name = "Cbxtipo";
+            this.Cbxtipo.Size = new System.Drawing.Size(121, 21);
+            this.Cbxtipo.TabIndex = 27;
             // 
             // Lblplaca
             // 
@@ -221,7 +221,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.Controls.Add(this.Lbldatovehiculo);
             this.Controls.Add(this.Lbldatoconductor);
             this.Controls.Add(this.Chbafiliado);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.Cbxtipo);
             this.Controls.Add(this.Lblplaca);
             this.Controls.Add(this.Lblgenero);
             this.Controls.Add(this.Lblidentificacion);
@@ -247,7 +247,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
         private System.Windows.Forms.Label Lbldatovehiculo;
         private System.Windows.Forms.Label Lbldatoconductor;
         private System.Windows.Forms.CheckBox Chbafiliado;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox Cbxtipo;
         private System.Windows.Forms.Label Lblplaca;
         private System.Windows.Forms.Label Lblgenero;
         private System.Windows.Forms.Label Lblidentificacion;

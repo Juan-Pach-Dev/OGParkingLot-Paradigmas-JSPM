@@ -85,6 +85,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.Lbltipovehiculo1);
             this.panel1.Controls.Add(this.Lblplacavehiculo1);
@@ -143,6 +144,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.Lbltipovehiculo2);
             this.panel2.Controls.Add(this.Lblplacavehiculo2);
@@ -181,6 +183,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.Lbltipovehiculo3);
             this.panel3.Controls.Add(this.Lblplacavehiculo3);
@@ -219,6 +222,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.Lbltipovehiculo4);
             this.panel4.Controls.Add(this.Lblplacavehiculo4);
@@ -257,6 +261,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel5
             // 
+            this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel5.Controls.Add(this.Lbltipovehiculo5);
             this.panel5.Controls.Add(this.Lblplacavehiculo5);
@@ -295,6 +300,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel6
             // 
+            this.panel6.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel6.Controls.Add(this.Lbltipovehiculo6);
             this.panel6.Controls.Add(this.Lblplacavehiculo6);
@@ -333,6 +339,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel7
             // 
+            this.panel7.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel7.Controls.Add(this.Lbltipovehiculo7);
             this.panel7.Controls.Add(this.Lblplacavehiculo7);
@@ -371,6 +378,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel8
             // 
+            this.panel8.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel8.Controls.Add(this.Lbltipovehiculo8);
             this.panel8.Controls.Add(this.Lblplacavehiculo8);
@@ -409,6 +417,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel9
             // 
+            this.panel9.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel9.Controls.Add(this.Lbltipovehiculo9);
             this.panel9.Controls.Add(this.Lblplacavehiculo9);
@@ -447,6 +456,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // 
             // panel10
             // 
+            this.panel10.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel10.Controls.Add(this.Lbltipovehiculo10);
             this.panel10.Controls.Add(this.Lblplacavehiculo10);
