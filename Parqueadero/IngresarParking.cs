@@ -16,5 +16,10 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
         {
             InitializeComponent();
         }
+
+        private void Btnconfirmar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

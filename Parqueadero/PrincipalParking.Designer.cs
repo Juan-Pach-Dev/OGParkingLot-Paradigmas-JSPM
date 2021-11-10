@@ -139,6 +139,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.Btnsacar.TabIndex = 2;
             this.Btnsacar.Text = "Retirar un Vehiculo";
             this.Btnsacar.UseVisualStyleBackColor = true;
+            this.Btnsacar.Click += new System.EventHandler(this.Btnsacar_Click);
             // 
             // panel2
             // 
@@ -482,7 +483,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.label27.TabIndex = 0;
             this.label27.Text = "Nombre";
             // 
-            // Parking
+            // PrincipalParking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -499,7 +500,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.Controls.Add(this.Btnsacar);
             this.Controls.Add(this.Btningresar);
             this.Controls.Add(this.panel1);
-            this.Name = "Parking";
+            this.Name = "PrincipalParking";
             this.Text = "Parking";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

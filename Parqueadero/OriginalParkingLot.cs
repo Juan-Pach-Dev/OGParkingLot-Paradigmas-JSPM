@@ -7,19 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using OGParkingLot_Paradigmas_JSPM.Parqueadero;
 
 namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
 {
     public partial class OriginalParkingLot : Form
     {
+
         public OriginalParkingLot()
         {
             InitializeComponent();
         }
 
+        public Dictionary<int, Vehicle> carro = new Dictionary<int, Vehicle>();
+
         private void OriginalParkingLot_Load(object sender, EventArgs e)
         {
-            PrincipalParking principalparking = new PrincipalParking
+            PrincipalParking principalparking = new PrincipalParking(carro)
             {
                 MdiParent = this
             };
@@ -27,5 +31,6 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             principalparking.Show();
 
         }
+
     }
 }

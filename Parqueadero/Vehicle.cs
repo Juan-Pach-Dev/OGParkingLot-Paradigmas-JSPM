@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
 {
-    class Vehicle
+    public class Vehicle
     {
         public string Marca { get => Marca; set => Marca = value; }
         public string Placa { get => Placa; set => Placa = value; }
