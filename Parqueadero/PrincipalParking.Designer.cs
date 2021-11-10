@@ -30,47 +30,47 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Lbltipovehiculo = new System.Windows.Forms.Label();
-            this.Lblplacavehiculo = new System.Windows.Forms.Label();
-            this.Lblnombre = new System.Windows.Forms.Label();
+            this.Lbltipovehiculo1 = new System.Windows.Forms.Label();
+            this.Lblplacavehiculo1 = new System.Windows.Forms.Label();
+            this.Lblnombre1 = new System.Windows.Forms.Label();
             this.Btningresar = new System.Windows.Forms.Button();
             this.Btnsacar = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.Lbltipovehiculo2 = new System.Windows.Forms.Label();
+            this.Lblplacavehiculo2 = new System.Windows.Forms.Label();
+            this.Lblnombre2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.Lbltipovehiculo3 = new System.Windows.Forms.Label();
+            this.Lblplacavehiculo3 = new System.Windows.Forms.Label();
+            this.Lblnombre3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.Lbltipovehiculo4 = new System.Windows.Forms.Label();
+            this.Lblplacavehiculo4 = new System.Windows.Forms.Label();
+            this.Lblnombre4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.Lbltipovehiculo5 = new System.Windows.Forms.Label();
+            this.Lblplacavehiculo5 = new System.Windows.Forms.Label();
+            this.Lblnombre5 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.Lbltipovehiculo6 = new System.Windows.Forms.Label();
+            this.Lblplacavehiculo6 = new System.Windows.Forms.Label();
+            this.Lblnombre6 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.Lbltipovehiculo7 = new System.Windows.Forms.Label();
+            this.Lblplacavehiculo7 = new System.Windows.Forms.Label();
+            this.Lblnombre7 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
+            this.Lbltipovehiculo8 = new System.Windows.Forms.Label();
+            this.Lblplacavehiculo8 = new System.Windows.Forms.Label();
+            this.Lblnombre8 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
+            this.Lbltipovehiculo9 = new System.Windows.Forms.Label();
+            this.Lblplacavehiculo9 = new System.Windows.Forms.Label();
+            this.Lblnombre9 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
+            this.Lbltipovehiculo10 = new System.Windows.Forms.Label();
+            this.Lblplacavehiculo10 = new System.Windows.Forms.Label();
+            this.Lblnombre10 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -86,40 +86,40 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.Lbltipovehiculo);
-            this.panel1.Controls.Add(this.Lblplacavehiculo);
-            this.panel1.Controls.Add(this.Lblnombre);
+            this.panel1.Controls.Add(this.Lbltipovehiculo1);
+            this.panel1.Controls.Add(this.Lblplacavehiculo1);
+            this.panel1.Controls.Add(this.Lblnombre1);
             this.panel1.Location = new System.Drawing.Point(55, 71);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(97, 133);
             this.panel1.TabIndex = 0;
             // 
-            // Lbltipovehiculo
+            // Lbltipovehiculo1
             // 
-            this.Lbltipovehiculo.AutoSize = true;
-            this.Lbltipovehiculo.Location = new System.Drawing.Point(3, 113);
-            this.Lbltipovehiculo.Name = "Lbltipovehiculo";
-            this.Lbltipovehiculo.Size = new System.Drawing.Size(87, 13);
-            this.Lbltipovehiculo.TabIndex = 2;
-            this.Lbltipovehiculo.Text = "Tipo de Vehiculo";
+            this.Lbltipovehiculo1.AutoSize = true;
+            this.Lbltipovehiculo1.Location = new System.Drawing.Point(3, 113);
+            this.Lbltipovehiculo1.Name = "Lbltipovehiculo1";
+            this.Lbltipovehiculo1.Size = new System.Drawing.Size(87, 13);
+            this.Lbltipovehiculo1.TabIndex = 2;
+            this.Lbltipovehiculo1.Text = "Tipo de Vehiculo";
             // 
-            // Lblplacavehiculo
+            // Lblplacavehiculo1
             // 
-            this.Lblplacavehiculo.AutoSize = true;
-            this.Lblplacavehiculo.Location = new System.Drawing.Point(3, 60);
-            this.Lblplacavehiculo.Name = "Lblplacavehiculo";
-            this.Lblplacavehiculo.Size = new System.Drawing.Size(34, 13);
-            this.Lblplacavehiculo.TabIndex = 1;
-            this.Lblplacavehiculo.Text = "Placa";
+            this.Lblplacavehiculo1.AutoSize = true;
+            this.Lblplacavehiculo1.Location = new System.Drawing.Point(3, 60);
+            this.Lblplacavehiculo1.Name = "Lblplacavehiculo1";
+            this.Lblplacavehiculo1.Size = new System.Drawing.Size(34, 13);
+            this.Lblplacavehiculo1.TabIndex = 1;
+            this.Lblplacavehiculo1.Text = "Placa";
             // 
-            // Lblnombre
+            // Lblnombre1
             // 
-            this.Lblnombre.AutoSize = true;
-            this.Lblnombre.Location = new System.Drawing.Point(3, 9);
-            this.Lblnombre.Name = "Lblnombre";
-            this.Lblnombre.Size = new System.Drawing.Size(44, 13);
-            this.Lblnombre.TabIndex = 0;
-            this.Lblnombre.Text = "Nombre";
+            this.Lblnombre1.AutoSize = true;
+            this.Lblnombre1.Location = new System.Drawing.Point(3, 9);
+            this.Lblnombre1.Name = "Lblnombre1";
+            this.Lblnombre1.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre1.TabIndex = 0;
+            this.Lblnombre1.Text = "Nombre";
             // 
             // Btningresar
             // 
@@ -144,344 +144,344 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.Lbltipovehiculo2);
+            this.panel2.Controls.Add(this.Lblplacavehiculo2);
+            this.panel2.Controls.Add(this.Lblnombre2);
             this.panel2.Location = new System.Drawing.Point(186, 71);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(97, 133);
             this.panel2.TabIndex = 3;
             // 
-            // label1
+            // Lbltipovehiculo2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 113);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Tipo de Vehiculo";
+            this.Lbltipovehiculo2.AutoSize = true;
+            this.Lbltipovehiculo2.Location = new System.Drawing.Point(3, 113);
+            this.Lbltipovehiculo2.Name = "Lbltipovehiculo2";
+            this.Lbltipovehiculo2.Size = new System.Drawing.Size(87, 13);
+            this.Lbltipovehiculo2.TabIndex = 2;
+            this.Lbltipovehiculo2.Text = "Tipo de Vehiculo";
             // 
-            // label2
+            // Lblplacavehiculo2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 60);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Placa";
+            this.Lblplacavehiculo2.AutoSize = true;
+            this.Lblplacavehiculo2.Location = new System.Drawing.Point(3, 60);
+            this.Lblplacavehiculo2.Name = "Lblplacavehiculo2";
+            this.Lblplacavehiculo2.Size = new System.Drawing.Size(34, 13);
+            this.Lblplacavehiculo2.TabIndex = 1;
+            this.Lblplacavehiculo2.Text = "Placa";
             // 
-            // label3
+            // Lblnombre2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 13);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Nombre";
+            this.Lblnombre2.AutoSize = true;
+            this.Lblnombre2.Location = new System.Drawing.Point(3, 9);
+            this.Lblnombre2.Name = "Lblnombre2";
+            this.Lblnombre2.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre2.TabIndex = 0;
+            this.Lblnombre2.Text = "Nombre";
             // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.Lbltipovehiculo3);
+            this.panel3.Controls.Add(this.Lblplacavehiculo3);
+            this.panel3.Controls.Add(this.Lblnombre3);
             this.panel3.Location = new System.Drawing.Point(323, 71);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(97, 133);
             this.panel3.TabIndex = 4;
             // 
-            // label4
+            // Lbltipovehiculo3
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 113);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Tipo de Vehiculo";
+            this.Lbltipovehiculo3.AutoSize = true;
+            this.Lbltipovehiculo3.Location = new System.Drawing.Point(3, 113);
+            this.Lbltipovehiculo3.Name = "Lbltipovehiculo3";
+            this.Lbltipovehiculo3.Size = new System.Drawing.Size(87, 13);
+            this.Lbltipovehiculo3.TabIndex = 2;
+            this.Lbltipovehiculo3.Text = "Tipo de Vehiculo";
             // 
-            // label5
+            // Lblplacavehiculo3
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 60);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 13);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Placa";
+            this.Lblplacavehiculo3.AutoSize = true;
+            this.Lblplacavehiculo3.Location = new System.Drawing.Point(3, 60);
+            this.Lblplacavehiculo3.Name = "Lblplacavehiculo3";
+            this.Lblplacavehiculo3.Size = new System.Drawing.Size(34, 13);
+            this.Lblplacavehiculo3.TabIndex = 1;
+            this.Lblplacavehiculo3.Text = "Placa";
             // 
-            // label6
+            // Lblnombre3
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 9);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Nombre";
+            this.Lblnombre3.AutoSize = true;
+            this.Lblnombre3.Location = new System.Drawing.Point(3, 9);
+            this.Lblnombre3.Name = "Lblnombre3";
+            this.Lblnombre3.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre3.TabIndex = 0;
+            this.Lblnombre3.Text = "Nombre";
             // 
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Controls.Add(this.label8);
-            this.panel4.Controls.Add(this.label9);
+            this.panel4.Controls.Add(this.Lbltipovehiculo4);
+            this.panel4.Controls.Add(this.Lblplacavehiculo4);
+            this.panel4.Controls.Add(this.Lblnombre4);
             this.panel4.Location = new System.Drawing.Point(464, 71);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(97, 133);
             this.panel4.TabIndex = 4;
             // 
-            // label7
+            // Lbltipovehiculo4
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 113);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(87, 13);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Tipo de Vehiculo";
+            this.Lbltipovehiculo4.AutoSize = true;
+            this.Lbltipovehiculo4.Location = new System.Drawing.Point(3, 113);
+            this.Lbltipovehiculo4.Name = "Lbltipovehiculo4";
+            this.Lbltipovehiculo4.Size = new System.Drawing.Size(87, 13);
+            this.Lbltipovehiculo4.TabIndex = 2;
+            this.Lbltipovehiculo4.Text = "Tipo de Vehiculo";
             // 
-            // label8
+            // Lblplacavehiculo4
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(3, 60);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 13);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "Placa";
+            this.Lblplacavehiculo4.AutoSize = true;
+            this.Lblplacavehiculo4.Location = new System.Drawing.Point(3, 60);
+            this.Lblplacavehiculo4.Name = "Lblplacavehiculo4";
+            this.Lblplacavehiculo4.Size = new System.Drawing.Size(34, 13);
+            this.Lblplacavehiculo4.TabIndex = 1;
+            this.Lblplacavehiculo4.Text = "Placa";
             // 
-            // label9
+            // Lblnombre4
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(3, 9);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 13);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Nombre";
+            this.Lblnombre4.AutoSize = true;
+            this.Lblnombre4.Location = new System.Drawing.Point(3, 9);
+            this.Lblnombre4.Name = "Lblnombre4";
+            this.Lblnombre4.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre4.TabIndex = 0;
+            this.Lblnombre4.Text = "Nombre";
             // 
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel5.Controls.Add(this.label10);
-            this.panel5.Controls.Add(this.label11);
-            this.panel5.Controls.Add(this.label12);
+            this.panel5.Controls.Add(this.Lbltipovehiculo5);
+            this.panel5.Controls.Add(this.Lblplacavehiculo5);
+            this.panel5.Controls.Add(this.Lblnombre5);
             this.panel5.Location = new System.Drawing.Point(602, 71);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(97, 133);
             this.panel5.TabIndex = 4;
             // 
-            // label10
+            // Lbltipovehiculo5
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(3, 113);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(87, 13);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "Tipo de Vehiculo";
+            this.Lbltipovehiculo5.AutoSize = true;
+            this.Lbltipovehiculo5.Location = new System.Drawing.Point(3, 113);
+            this.Lbltipovehiculo5.Name = "Lbltipovehiculo5";
+            this.Lbltipovehiculo5.Size = new System.Drawing.Size(87, 13);
+            this.Lbltipovehiculo5.TabIndex = 2;
+            this.Lbltipovehiculo5.Text = "Tipo de Vehiculo";
             // 
-            // label11
+            // Lblplacavehiculo5
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(3, 60);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(34, 13);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "Placa";
+            this.Lblplacavehiculo5.AutoSize = true;
+            this.Lblplacavehiculo5.Location = new System.Drawing.Point(3, 60);
+            this.Lblplacavehiculo5.Name = "Lblplacavehiculo5";
+            this.Lblplacavehiculo5.Size = new System.Drawing.Size(34, 13);
+            this.Lblplacavehiculo5.TabIndex = 1;
+            this.Lblplacavehiculo5.Text = "Placa";
             // 
-            // label12
+            // Lblnombre5
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(3, 9);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(44, 13);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Nombre";
+            this.Lblnombre5.AutoSize = true;
+            this.Lblnombre5.Location = new System.Drawing.Point(3, 9);
+            this.Lblnombre5.Name = "Lblnombre5";
+            this.Lblnombre5.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre5.TabIndex = 0;
+            this.Lblnombre5.Text = "Nombre";
             // 
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel6.Controls.Add(this.label13);
-            this.panel6.Controls.Add(this.label14);
-            this.panel6.Controls.Add(this.label15);
+            this.panel6.Controls.Add(this.Lbltipovehiculo6);
+            this.panel6.Controls.Add(this.Lblplacavehiculo6);
+            this.panel6.Controls.Add(this.Lblnombre6);
             this.panel6.Location = new System.Drawing.Point(55, 225);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(97, 133);
             this.panel6.TabIndex = 5;
             // 
-            // label13
+            // Lbltipovehiculo6
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(3, 113);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(87, 13);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "Tipo de Vehiculo";
+            this.Lbltipovehiculo6.AutoSize = true;
+            this.Lbltipovehiculo6.Location = new System.Drawing.Point(3, 113);
+            this.Lbltipovehiculo6.Name = "Lbltipovehiculo6";
+            this.Lbltipovehiculo6.Size = new System.Drawing.Size(87, 13);
+            this.Lbltipovehiculo6.TabIndex = 2;
+            this.Lbltipovehiculo6.Text = "Tipo de Vehiculo";
             // 
-            // label14
+            // Lblplacavehiculo6
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(3, 60);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(34, 13);
-            this.label14.TabIndex = 1;
-            this.label14.Text = "Placa";
+            this.Lblplacavehiculo6.AutoSize = true;
+            this.Lblplacavehiculo6.Location = new System.Drawing.Point(3, 60);
+            this.Lblplacavehiculo6.Name = "Lblplacavehiculo6";
+            this.Lblplacavehiculo6.Size = new System.Drawing.Size(34, 13);
+            this.Lblplacavehiculo6.TabIndex = 1;
+            this.Lblplacavehiculo6.Text = "Placa";
             // 
-            // label15
+            // Lblnombre6
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(3, 9);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(44, 13);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "Nombre";
+            this.Lblnombre6.AutoSize = true;
+            this.Lblnombre6.Location = new System.Drawing.Point(3, 9);
+            this.Lblnombre6.Name = "Lblnombre6";
+            this.Lblnombre6.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre6.TabIndex = 0;
+            this.Lblnombre6.Text = "Nombre";
             // 
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel7.Controls.Add(this.label16);
-            this.panel7.Controls.Add(this.label17);
-            this.panel7.Controls.Add(this.label18);
+            this.panel7.Controls.Add(this.Lbltipovehiculo7);
+            this.panel7.Controls.Add(this.Lblplacavehiculo7);
+            this.panel7.Controls.Add(this.Lblnombre7);
             this.panel7.Location = new System.Drawing.Point(186, 225);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(97, 133);
             this.panel7.TabIndex = 4;
             // 
-            // label16
+            // Lbltipovehiculo7
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(3, 113);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(87, 13);
-            this.label16.TabIndex = 2;
-            this.label16.Text = "Tipo de Vehiculo";
+            this.Lbltipovehiculo7.AutoSize = true;
+            this.Lbltipovehiculo7.Location = new System.Drawing.Point(3, 113);
+            this.Lbltipovehiculo7.Name = "Lbltipovehiculo7";
+            this.Lbltipovehiculo7.Size = new System.Drawing.Size(87, 13);
+            this.Lbltipovehiculo7.TabIndex = 2;
+            this.Lbltipovehiculo7.Text = "Tipo de Vehiculo";
             // 
-            // label17
+            // Lblplacavehiculo7
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(3, 60);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(34, 13);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "Placa";
+            this.Lblplacavehiculo7.AutoSize = true;
+            this.Lblplacavehiculo7.Location = new System.Drawing.Point(3, 60);
+            this.Lblplacavehiculo7.Name = "Lblplacavehiculo7";
+            this.Lblplacavehiculo7.Size = new System.Drawing.Size(34, 13);
+            this.Lblplacavehiculo7.TabIndex = 1;
+            this.Lblplacavehiculo7.Text = "Placa";
             // 
-            // label18
+            // Lblnombre7
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 9);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(44, 13);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Nombre";
+            this.Lblnombre7.AutoSize = true;
+            this.Lblnombre7.Location = new System.Drawing.Point(3, 9);
+            this.Lblnombre7.Name = "Lblnombre7";
+            this.Lblnombre7.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre7.TabIndex = 0;
+            this.Lblnombre7.Text = "Nombre";
             // 
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel8.Controls.Add(this.label19);
-            this.panel8.Controls.Add(this.label20);
-            this.panel8.Controls.Add(this.label21);
+            this.panel8.Controls.Add(this.Lbltipovehiculo8);
+            this.panel8.Controls.Add(this.Lblplacavehiculo8);
+            this.panel8.Controls.Add(this.Lblnombre8);
             this.panel8.Location = new System.Drawing.Point(323, 225);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(97, 133);
             this.panel8.TabIndex = 4;
             // 
-            // label19
+            // Lbltipovehiculo8
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(3, 113);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(87, 13);
-            this.label19.TabIndex = 2;
-            this.label19.Text = "Tipo de Vehiculo";
+            this.Lbltipovehiculo8.AutoSize = true;
+            this.Lbltipovehiculo8.Location = new System.Drawing.Point(3, 113);
+            this.Lbltipovehiculo8.Name = "Lbltipovehiculo8";
+            this.Lbltipovehiculo8.Size = new System.Drawing.Size(87, 13);
+            this.Lbltipovehiculo8.TabIndex = 2;
+            this.Lbltipovehiculo8.Text = "Tipo de Vehiculo";
             // 
-            // label20
+            // Lblplacavehiculo8
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(3, 60);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(34, 13);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "Placa";
+            this.Lblplacavehiculo8.AutoSize = true;
+            this.Lblplacavehiculo8.Location = new System.Drawing.Point(3, 60);
+            this.Lblplacavehiculo8.Name = "Lblplacavehiculo8";
+            this.Lblplacavehiculo8.Size = new System.Drawing.Size(34, 13);
+            this.Lblplacavehiculo8.TabIndex = 1;
+            this.Lblplacavehiculo8.Text = "Placa";
             // 
-            // label21
+            // Lblnombre8
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(3, 9);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(44, 13);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "Nombre";
+            this.Lblnombre8.AutoSize = true;
+            this.Lblnombre8.Location = new System.Drawing.Point(3, 9);
+            this.Lblnombre8.Name = "Lblnombre8";
+            this.Lblnombre8.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre8.TabIndex = 0;
+            this.Lblnombre8.Text = "Nombre";
             // 
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel9.Controls.Add(this.label22);
-            this.panel9.Controls.Add(this.label23);
-            this.panel9.Controls.Add(this.label24);
+            this.panel9.Controls.Add(this.Lbltipovehiculo9);
+            this.panel9.Controls.Add(this.Lblplacavehiculo9);
+            this.panel9.Controls.Add(this.Lblnombre9);
             this.panel9.Location = new System.Drawing.Point(464, 225);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(97, 133);
             this.panel9.TabIndex = 4;
             // 
-            // label22
+            // Lbltipovehiculo9
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(3, 113);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(87, 13);
-            this.label22.TabIndex = 2;
-            this.label22.Text = "Tipo de Vehiculo";
+            this.Lbltipovehiculo9.AutoSize = true;
+            this.Lbltipovehiculo9.Location = new System.Drawing.Point(3, 113);
+            this.Lbltipovehiculo9.Name = "Lbltipovehiculo9";
+            this.Lbltipovehiculo9.Size = new System.Drawing.Size(87, 13);
+            this.Lbltipovehiculo9.TabIndex = 2;
+            this.Lbltipovehiculo9.Text = "Tipo de Vehiculo";
             // 
-            // label23
+            // Lblplacavehiculo9
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(3, 60);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(34, 13);
-            this.label23.TabIndex = 1;
-            this.label23.Text = "Placa";
+            this.Lblplacavehiculo9.AutoSize = true;
+            this.Lblplacavehiculo9.Location = new System.Drawing.Point(3, 60);
+            this.Lblplacavehiculo9.Name = "Lblplacavehiculo9";
+            this.Lblplacavehiculo9.Size = new System.Drawing.Size(34, 13);
+            this.Lblplacavehiculo9.TabIndex = 1;
+            this.Lblplacavehiculo9.Text = "Placa";
             // 
-            // label24
+            // Lblnombre9
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(3, 9);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(44, 13);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "Nombre";
+            this.Lblnombre9.AutoSize = true;
+            this.Lblnombre9.Location = new System.Drawing.Point(3, 9);
+            this.Lblnombre9.Name = "Lblnombre9";
+            this.Lblnombre9.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre9.TabIndex = 0;
+            this.Lblnombre9.Text = "Nombre";
             // 
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel10.Controls.Add(this.label25);
-            this.panel10.Controls.Add(this.label26);
-            this.panel10.Controls.Add(this.label27);
+            this.panel10.Controls.Add(this.Lbltipovehiculo10);
+            this.panel10.Controls.Add(this.Lblplacavehiculo10);
+            this.panel10.Controls.Add(this.Lblnombre10);
             this.panel10.Location = new System.Drawing.Point(602, 225);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(97, 133);
             this.panel10.TabIndex = 4;
             // 
-            // label25
+            // Lbltipovehiculo10
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(3, 113);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(87, 13);
-            this.label25.TabIndex = 2;
-            this.label25.Text = "Tipo de Vehiculo";
+            this.Lbltipovehiculo10.AutoSize = true;
+            this.Lbltipovehiculo10.Location = new System.Drawing.Point(3, 113);
+            this.Lbltipovehiculo10.Name = "Lbltipovehiculo10";
+            this.Lbltipovehiculo10.Size = new System.Drawing.Size(87, 13);
+            this.Lbltipovehiculo10.TabIndex = 2;
+            this.Lbltipovehiculo10.Text = "Tipo de Vehiculo";
             // 
-            // label26
+            // Lblplacavehiculo10
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(3, 60);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(34, 13);
-            this.label26.TabIndex = 1;
-            this.label26.Text = "Placa";
+            this.Lblplacavehiculo10.AutoSize = true;
+            this.Lblplacavehiculo10.Location = new System.Drawing.Point(3, 60);
+            this.Lblplacavehiculo10.Name = "Lblplacavehiculo10";
+            this.Lblplacavehiculo10.Size = new System.Drawing.Size(34, 13);
+            this.Lblplacavehiculo10.TabIndex = 1;
+            this.Lblplacavehiculo10.Text = "Placa";
             // 
-            // label27
+            // Lblnombre10
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(3, 9);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(44, 13);
-            this.label27.TabIndex = 0;
-            this.label27.Text = "Nombre";
+            this.Lblnombre10.AutoSize = true;
+            this.Lblnombre10.Location = new System.Drawing.Point(3, 9);
+            this.Lblnombre10.Name = "Lblnombre10";
+            this.Lblnombre10.Size = new System.Drawing.Size(44, 13);
+            this.Lblnombre10.TabIndex = 0;
+            this.Lblnombre10.Text = "Nombre";
             // 
             // PrincipalParking
             // 
@@ -529,46 +529,46 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label Lbltipovehiculo;
-        private System.Windows.Forms.Label Lblplacavehiculo;
-        private System.Windows.Forms.Label Lblnombre;
+        private System.Windows.Forms.Label Lbltipovehiculo1;
+        private System.Windows.Forms.Label Lblplacavehiculo1;
+        private System.Windows.Forms.Label Lblnombre1;
         private System.Windows.Forms.Button Btningresar;
         private System.Windows.Forms.Button Btnsacar;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Lbltipovehiculo2;
+        private System.Windows.Forms.Label Lblplacavehiculo2;
+        private System.Windows.Forms.Label Lblnombre2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label Lbltipovehiculo3;
+        private System.Windows.Forms.Label Lblplacavehiculo3;
+        private System.Windows.Forms.Label Lblnombre3;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label Lbltipovehiculo4;
+        private System.Windows.Forms.Label Lblplacavehiculo4;
+        private System.Windows.Forms.Label Lblnombre4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label Lbltipovehiculo5;
+        private System.Windows.Forms.Label Lblplacavehiculo5;
+        private System.Windows.Forms.Label Lblnombre5;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label Lbltipovehiculo6;
+        private System.Windows.Forms.Label Lblplacavehiculo6;
+        private System.Windows.Forms.Label Lblnombre6;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label Lbltipovehiculo7;
+        private System.Windows.Forms.Label Lblplacavehiculo7;
+        private System.Windows.Forms.Label Lblnombre7;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label Lbltipovehiculo8;
+        private System.Windows.Forms.Label Lblplacavehiculo8;
+        private System.Windows.Forms.Label Lblnombre8;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label Lbltipovehiculo9;
+        private System.Windows.Forms.Label Lblplacavehiculo9;
+        private System.Windows.Forms.Label Lblnombre9;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label Lbltipovehiculo10;
+        private System.Windows.Forms.Label Lblplacavehiculo10;
+        private System.Windows.Forms.Label Lblnombre10;
     }
 }

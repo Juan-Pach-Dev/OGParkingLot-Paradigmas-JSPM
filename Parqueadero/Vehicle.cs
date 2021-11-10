@@ -14,6 +14,7 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
         public string Genero { get => Genero; set => Genero = value; }
         public bool Afiliado { get => Afiliado; set => Afiliado = value; }
         public string Identificacion { get => Identificacion; set => Identificacion = value; }
+        public DateTime Time { get => Time; set => Time = value; }
 
 
     }

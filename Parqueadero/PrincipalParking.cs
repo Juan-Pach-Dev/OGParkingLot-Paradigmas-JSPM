@@ -27,43 +27,64 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
                     { 
                         if (p == 0)
                         {
-                            lbl1.Text = $"Ocupado\n  {principalparking[p].Placa}\n";
+                            Lblnombre1.Text = $"Ocupado\n  {principalparking[p].Marca}\n";
+                            Lblplacavehiculo1.Text = $"Ocupado\n  {principalparking[p].Placa}\n";
+                            Lbltipovehiculo1.Text = $"Ocupado\n  {principalparking[p].Tipo}\n";
+
                         }
                         if (p == 1)
                         {
-                            lbl2.Text = $"Ocupado\n{principalparking[p].Placa}";
+                            Lblnombre2.Text = $"Ocupado\n  {principalparking[p].Marca}\n";
+                            Lblplacavehiculo2.Text = $"Ocupado\n  {principalparking[p].Placa}\n";
+                            Lbltipovehiculo2.Text = $"Ocupado\n  {principalparking[p].Tipo}\n";
                         }
                         if (p == 2)
                         {
-                            lbl3.Text = $"Ocupado\n{principalparking[p].Placa}";
+                            Lblnombre3.Text = $"Ocupado\n  {principalparking[p].Marca}\n";
+                            Lblplacavehiculo3.Text = $"Ocupado\n  {principalparking[p].Placa}\n";
+                            Lbltipovehiculo3.Text = $"Ocupado\n  {principalparking[p].Tipo}\n";
                         }
                         if (p == 3)
                         {
-                            lbl4.Text = $"Ocupado\n{principalparking[p].Placa}";
+                            Lblnombre4.Text = $"Ocupado\n  {principalparking[p].Marca}\n";
+                            Lblplacavehiculo4.Text = $"Ocupado\n  {principalparking[p].Placa}\n";
+                            Lbltipovehiculo4.Text = $"Ocupado\n  {principalparking[p].Tipo}\n";
                         }
                         if (p == 4)
                         {
-                            lbl5.Text = $"Ocupado\n{principalparking[p].Placa}";
+                            Lblnombre5.Text = $"Ocupado\n  {principalparking[p].Marca}\n";
+                            Lblplacavehiculo5.Text = $"Ocupado\n  {principalparking[p].Placa}\n";
+                            Lbltipovehiculo5.Text = $"Ocupado\n  {principalparking[p].Tipo}\n";
                         }
                         if (p == 5)
                         {
-                            lbl6.Text = $"Ocupado\n{principalparking[p].Placa}";
+                            Lblnombre6.Text = $"Ocupado\n  {principalparking[p].Marca}\n";
+                            Lblplacavehiculo6.Text = $"Ocupado\n  {principalparking[p].Placa}\n";
+                            Lbltipovehiculo6.Text = $"Ocupado\n  {principalparking[p].Tipo}\n";
                         }
                         if (p == 6)
                         {
-                            lbl7.Text = $"Ocupado\n{principalparking[p].Placa}";
+                            Lblnombre7.Text = $"Ocupado\n  {principalparking[p].Marca}\n";
+                            Lblplacavehiculo7.Text = $"Ocupado\n  {principalparking[p].Placa}\n";
+                            Lbltipovehiculo7.Text = $"Ocupado\n  {principalparking[p].Tipo}\n";
                         }
                         if (p == 7)
                         {
-                            lbl8.Text = $"Ocupado\n{principalparking[p].Placa}";
+                            Lblnombre8.Text = $"Ocupado\n  {principalparking[p].Marca}\n";
+                            Lblplacavehiculo8.Text = $"Ocupado\n  {principalparking[p].Placa}\n";
+                            Lbltipovehiculo8.Text = $"Ocupado\n  {principalparking[p].Tipo}\n";
                         }
                         if (p == 8)
                         {
-                            lbl9.Text = $"Ocupado\n{principalparking[p].Placa}";
+                            Lblnombre9.Text = $"Ocupado\n  {principalparking[p].Marca}\n";
+                            Lblplacavehiculo9.Text = $"Ocupado\n  {principalparking[p].Placa}\n";
+                            Lbltipovehiculo9.Text = $"Ocupado\n  {principalparking[p].Tipo}\n";
                         }
                         if (p == 9)
                         {
-                            lbl10.Text = $"Ocupado\n{principalparking[p].Placa}";
+                            Lblnombre10.Text = $"Ocupado\n  {principalparking[p].Marca}\n";
+                            Lblplacavehiculo10.Text = $"Ocupado\n  {principalparking[p].Placa}\n";
+                            Lbltipovehiculo10.Text = $"Ocupado\n  {principalparking[p].Tipo}\n";
                         }
                     }
                     

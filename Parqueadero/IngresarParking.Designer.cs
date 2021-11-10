@@ -46,7 +46,6 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.Lblbienvenida = new System.Windows.Forms.Label();
             this.Txtmarca = new System.Windows.Forms.TextBox();
             this.Lblmarca = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // Btnconfirmar
@@ -208,19 +207,11 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
             this.Lblmarca.TabIndex = 20;
             this.Lblmarca.Text = "Marca ";
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(311, 112);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 37;
-            // 
             // IngresarParking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.Btnconfirmar);
             this.Controls.Add(this.Lblafil);
             this.Controls.Add(this.Txtidentificacion);
@@ -264,6 +255,5 @@ namespace OGParkingLot_Paradigmas_JSPM.Parqueadero
         private System.Windows.Forms.Label Lblbienvenida;
         private System.Windows.Forms.TextBox Txtmarca;
         private System.Windows.Forms.Label Lblmarca;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
